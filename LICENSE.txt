@@ -1,0 +1,2 @@
+Copyright (c) Nexolve Project
+All rights reserved.

@@ -1,0 +1,1 @@
+Run build_quantora_release.py to create the zip. After extracting, read README.md for instructions.

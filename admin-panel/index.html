@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quantora Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div class="wrap"><header><h1>Quantora Admin</h1></header>
+<section id="loginBox">
+  <h3>Admin Login</h3>
+  <input id="username" placeholder="username" />
+  <input id="password" placeholder="password" type="password" />
+  <button id="btnLogin">Login</button>
+  <pre id="loginRes"></pre>
+</section>
+<section id="panel" style="display:none;">
+  <h3>Users</h3>
+  <div id="users"></div>
+  <h4>Grant Premium</h4>
+  <input id="g_user" placeholder="user_id" />
+  <input id="g_days" placeholder="days" value="30" />
+  <button id="grantBtn">Grant</button>
+  <pre id="grantRes"></pre>
+  <h4>Top5 Logs</h4>
+  <button id="loadLogs">Refresh Logs</button>
+  <div id="logs"></div>
+  <button id="btnLogout">Logout</button>
+</section></div>
+<script src="app.js"></script>
+</body></html>
