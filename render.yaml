@@ -6,4 +6,4 @@ plan: free
 buildCommand: |
   pip install --upgrade pip setuptools wheel
   pip install -r backend/requirements.txt
-  startCommand: gunicorn backend/main:app 
+  startCommand: gunicorn backend.main:app 
