@@ -1,20 +1,20 @@
-# Core libraries
+# Flask framework
+Flask>=2.3.3
+python-dotenv>=1.0.0
+gunicorn>=21.2.0
+
+# Data libraries
 numpy>=1.25.2
 pandas>=2.1.0
 scipy>=1.11.1
 matplotlib>=3.8.0
 
-# Web / backend
-fastapi>=0.101.0
-uvicorn>=0.25.0
-
-# Optional: database / ORM
+# Optional database / ORM
 sqlalchemy>=2.1.2
 databases>=0.7.2
 
-# Utilities
-python-dotenv>=1.0.0
+# HTTP utilities
 requests>=2.32.0
 
-# Force pre-built wheel for pandas
+# Paksa pre-built wheel untuk pandas & C-extension lainnya
 --only-binary :all:
