@@ -10,7 +10,7 @@ scipy>=1.11.1
 matplotlib>=3.8.0
 
 # Optional database / ORM
-sqlalchemy>=2.1.2
+sqlalchemy>=2.0.44,<2.1
 databases>=0.7.2
 
 # HTTP utilities
