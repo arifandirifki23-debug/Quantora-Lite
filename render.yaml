@@ -1,9 +1,9 @@
-service:
--type: web
-name: Quantora-Lite
-env: python
-plan: free
-buildCommand: |
-  pip install --upgrade pip setuptools wheel
-  pip install -r backend/requirements.txt
-  startCommand: gunicorn backend.main:app 
+services:
+  - type: web
+    name: Quantora-Lite
+    env: python
+    plan: free
+    buildCommand: |
+       pip install --upgrade pip setuptools wheel
+       pip install -r backend/requirements.txt
+    startCommand: gunicorn backend.main:app 
